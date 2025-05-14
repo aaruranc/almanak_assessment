@@ -1,0 +1,3 @@
+Annualized Return: 0.37%
+Sharpe Ratio: 0.09
+Max Drawdown: -0.61%

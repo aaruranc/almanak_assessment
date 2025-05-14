@@ -1,0 +1,11 @@
+boto3==1.24.28
+ccxt==4.4.75
+fastapi==0.115.12
+lz4==4.4.4
+matplotlib==3.5.2
+numpy==1.21.5
+pandas==1.4.4
+python-dotenv==1.1.0
+PyYAML==6.0.2
+requests==2.28.1
+uvicorn==0.34.2

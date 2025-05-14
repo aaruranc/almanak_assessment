@@ -1,0 +1,52 @@
+start: 2025-01-01T00:00:00
+end: 2025-05-01T00:00:00
+
+## Data Generation Configs
+
+spot_exchs:
+  - binance
+
+perp_exchs:
+  - binance
+
+assets:
+  - BTC
+  - ETH
+  - SOL
+  - XRP
+  - SUI
+
+px_cols:
+  - O
+  - H
+  - L
+  - C
+
+## Strategy Configs
+fees:
+  binance: 0.0001
+  hl: 0.0000
+
+## Backtest Configs
+
+starting_capital: 1_000_000
+edge_threshold: 0.0001
+notional_per_trade: 100_000
+max_position_size: 100_000
+slippage: 0.0001
+max_pov: 0.05
+rfr: 0.00
+
+
+## Live Configs
+
+## Execution Configs
+hl_url: https://api.hyperliquid-testnet.xyz
+binance_url: https://testnet.binancefuture.com
+hedge_threshold: 100
+
+## Monitoring Configs
+monitor_host: "127.0.0.1"
+monitor_port: 3000
+tail_lines: 500
+
